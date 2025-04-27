@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(7, 12%);
+}
+
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 60px;
+    background-color: #d6d0d0;
+    text-align: center;
+    color: #000;
+    background-color: rgba(255, 251, 180, 0.99);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+
+.grid-red{
+    width: 80px;
+    height: 60px;
+    background-color: rgba(245, 58, 58, 0.99);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+
+}
+.grid-green{
+    width: 80px;
+    height: 60px;
+    background-color: rgba(48, 166, 85, 0.99);
+    clip-path:polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+
